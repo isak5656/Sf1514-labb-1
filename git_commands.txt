@@ -1,0 +1,37 @@
+dir - # Visa filer och mappar där du befinner dig
+
+cd Mappnamn - # Gå in i en mapp
+
+cd .. # Gå tillbaka en nivå
+
+cd C:\Users\DittNamn\Desktop - # Gå till en specifik plats
+
+cd "Mitt Python Projekt" - # Om mappnamnet innehåller mellanslag
+
+# Kolla vilka filer som ändrats
+
+
+
+git status
+# Visar vilka filer som har ändrats och vad som väntar på commit.
+
+git pull
+# Hämtar de senaste ändringarna från GitHub.
+
+git add .
+# Lägger till alla ändrade filer inför nästa commit.
+
+git commit -m "Beskriv ändringen"
+# Sparar ändringarna lokalt som en ny version/checkpoint.
+
+git push
+# Skickar dina commits till GitHub.
+
+git log --oneline
+# Visar tidigare commits i en kort lista.
+
+git diff
+# Visar exakt vad du har ändrat sedan senaste commit.
+
+git branch
+# Visar vilka branches som finns och vilken du är på.
