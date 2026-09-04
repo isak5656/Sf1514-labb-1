@@ -32,7 +32,7 @@ def fixedpoint_metod():
         iteration += 1
         fel_fixpunkt.append(np.abs(x_next - x_current))
 
-    return(fel_fixpunkt)
+    return fel_fixpunkt
 
 
 def newton_metod():
@@ -81,7 +81,6 @@ def plot():
     plt.semilogy(fel_newton, label="Newton")
     plt.legend()
     plt.grid()
-    plt.figure(2)
 
     plt.show()
 
